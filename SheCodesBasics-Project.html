@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Landing Page</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+
+      body {
+        background-color: transparent;
+      }
+      html {
+        /* The image used */
+        background-image: url("image/mountain1.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      h1 {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        color: #ecffa3;
+      }
+      h2 {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid;
+        border-color: #ecffa3;
+        border-radius: 8px;
+        padding: 15px;
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 8px;
+      }
+      p1 {
+        line-height: 1.5;
+      }
+      p2 {
+        line-height: 1.5;
+      }
+      p3 {
+        line-height: 1.5px;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+      }
+      ul {
+        line-height: 1.5;
+        margin: 0 100px;
+      }
+      .p-container {
+        margin: 10px 0px;
+      }
+      .learn-more {
+        color: black;
+        text-decoration: none;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 12px;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .quote {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        color: #ecffa3;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #4c9173;
+        border-radius: 15px;
+        padding: 10px 20px;
+        background: transparent;
+        color: black;
+        font-size: 14px;
+        padding: 10px;
+        box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: white;
+        background: blueviolet;
+        cursor: pointer;
+      }
+      .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 55%;
+        padding: 50px;
+        border: 1px solid #4c9173;
+        border-radius: 10px;
+        box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(
+          to right,
+          rgb(182, 244, 146),
+          rgb(51, 139, 147)
+        );
+      }
+      .footer {
+        text-align: center;
+        margin: 30px;
+      }
+      .footer-link {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <em>
+          "It is not the mountain we conquer,
+          <br />
+          but ourselves!"</em
+        >
+      </h1>
+      <h2>Hiking is Nature’s Therapy</h2>
+      <div class="p-container">
+        <p1>
+          In today’s world of chaos and constant stimulation, it’s hard to quiet
+          the mind and think. Getting into Nature offers a way to find some
+          silence and clarity; and it’s an important tool to counter our
+          standards of survival in society. The more and more pressure we put on
+          ourselves, the more our health degrades. Our minds and bodies need
+          silence in order to regenerate.
+        </p1>
+      </div>
+      <img src="image/pulag-hike.jpg" alt="mountain" width="600" />
+      <div class="p-container">
+        <p2>
+          Hiking is a great way to reap the benefits of what nature has to
+          offer. The elements whip us into shape and we sweat out our
+          frustrations. As our muscles scream for mercy and our toes rub in our
+          boots, we seek shade. The shelter of a giant pine tree is a luxurious
+          refuge from the intense sun rays. Leaning against the rugged bark, the
+          ultimate question surfaces: Why did I choose to do this? Hiking.
+          Sometimes the fatigue from everyday life tries to dissuade us from
+          getting outdoors; but in the end, the rewards of trekking unknown
+          paths are too great. Hiking is a way for nature to give us some much
+          needed therapy; and depending on where we go, it’s affordable.
+        </p2>
+      </div>
+
+      <hr />
+      <div class="p-container">
+        <p3>
+          <strong
+            >Here are a few reasons why hiking is the ultimate nature
+            therapy.</strong
+          >
+        </p3>
+      </div>
+
+      <ul>
+        <li>Hiking Soothes and Clears the Mind</li>
+        <li>Hiking Makes us More Mindful</li>
+        <li>Hiking Rejuvenates and Increases Happiness</li>
+        <li>Nature offers us Advice</li>
+      </ul>
+      <span>
+        <hr />
+        <a
+          href="https://en.wikipedia.org/wiki/Hiking"
+          target="_blank"
+          class="learn-more"
+          ><em>Learn more about Hiking</em>
+        </a>
+      </span>
+      <div class="quote">
+        <em>“The mountains are calling, and We must go.”</em>
+      </div>
+      <button class="joinUs">🙋‍♂️ Join Our Hiking Team 🙋‍♀️</button>
+      <div class="footer">
+        <span>
+          This page was built by
+          <a
+            href="https://www.shecodesfoundation.org/candidates/rochelle-joy-deligero-filipino"
+            target="_blank"
+            class="footer-link"
+          >
+            Rochelle Joy Deligero 💜
+          </a>
+        </span>
+      </div>
+    </div>
+    <script>
+      function join() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+        let email = prompt("What is your email address?");
+
+        let approval = document.querySelector(".quote");
+        if (age > 17)
+          approval.innerHTML = "Hi, " + name + "! Put on your hiking boots!";
+        else
+          approval.innerHTML =
+            "Sorry, " + name + "! Let's go hiking when your 18.";
+      }
+
+      let joinButton = document.querySelector("button");
+
+      joinButton.addEventListener("click", join);
+    </script>
+  </body>
+</html>
